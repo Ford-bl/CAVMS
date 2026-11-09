@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# CAVMS – Campus Activities & Volunteer Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+CAVMS is a React-based web application designed to help students explore campus activities, discover volunteer opportunities, and register for events.
 
-In the project directory, you can run:
+The system provides a simple and responsive interface that makes campus activities easier to discover and access.
 
-### `npm start`
+## Project Objectives
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Display available campus events.
+- Allow students to search and filter events.
+- Provide detailed information about individual events.
+- Present volunteer opportunities.
+- Allow users to submit contact messages.
+- Provide an easy-to-use responsive interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Main Features
 
-### `npm test`
+- Home page with featured events.
+- About page explaining the project.
+- Services page displaying events and volunteer opportunities.
+- Event search and category filtering.
+- Dynamic event details pages.
+- Event registration demonstration.
+- Contact form.
+- Responsive desktop and mobile layouts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- React
+- JavaScript
+- JSX
+- HTML
+- CSS
+- React Router DOM
+- React Hooks
+- Browser localStorage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## React Concepts
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The project uses:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Components
+- Props
+- Lists and map()
+- React Router
+- useState
+- useEffect
+- useParams
+- Event handling
+- Controlled forms
+- JSON
+- localStorage
 
-### `npm run eject`
+## Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```text
+src/
+├── components/
+├── data/
+├── pages/
+├── App.js
+├── App.css
+└── index.css
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation and Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/Ford-bl/CAVMS.git
+```
 
-## Learn More
+2. Open the project folder.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install dependencies.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
 
-### Code Splitting
+4. Start the development server.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+## Data Storage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This Phase 1 frontend demonstration uses browser localStorage to save contact messages and event registration information.
 
-### Making a Progressive Web App
+It does not currently use a backend server or centralized database.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Author
 
-### Advanced Configuration
+CAVMS – Campus Activities & Volunteer Management System
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+CSCI 426 – Web Advanced
