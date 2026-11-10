@@ -98,3 +98,22 @@ It does not currently use a backend server or centralized database.
 CAVMS – Campus Activities & Volunteer Management System
 
 CSCI 426 – Web Advanced
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### About Page
+![About Page](screenshots/about.png)
+
+### Services Page
+![Services Page](screenshots/services.png)
+
+### Event Details Page
+![Event Details](screenshots/event-details.png)
+
+### Contact Page
+![Contact Page](screenshots/contact.png)
+
+### Mobile View
+![Mobile View](screenshots/mobile.png)
